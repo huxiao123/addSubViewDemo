@@ -15,6 +15,10 @@
 		260025691DE812790045B638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260025671DE812790045B638 /* LaunchScreen.storyboard */; };
 		260025741DE812790045B638 /* addSubViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 260025731DE812790045B638 /* addSubViewDemoTests.m */; };
 		2600257F1DE812790045B638 /* addSubViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2600257E1DE812790045B638 /* addSubViewDemoUITests.m */; };
+		260025911DE816ED0045B638 /* AddSubViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 260025901DE816ED0045B638 /* AddSubViewVC.m */; };
+		260025941DE81A070045B638 /* AtIndexViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 260025931DE81A070045B638 /* AtIndexViewVC.m */; };
+		260025971DE81D2C0045B638 /* aboveSubviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 260025961DE81D2C0045B638 /* aboveSubviewVC.m */; };
+		2600259A1DE81DD10045B638 /* belowSubviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 260025991DE81DD10045B638 /* belowSubviewVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		2600257A1DE812790045B638 /* addSubViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = addSubViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2600257E1DE812790045B638 /* addSubViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addSubViewDemoUITests.m; sourceTree = "<group>"; };
 		260025801DE812790045B638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2600258F1DE816ED0045B638 /* AddSubViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSubViewVC.h; sourceTree = "<group>"; };
+		260025901DE816ED0045B638 /* AddSubViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSubViewVC.m; sourceTree = "<group>"; };
+		260025921DE81A070045B638 /* AtIndexViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtIndexViewVC.h; sourceTree = "<group>"; };
+		260025931DE81A070045B638 /* AtIndexViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtIndexViewVC.m; sourceTree = "<group>"; };
+		260025951DE81D2C0045B638 /* aboveSubviewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aboveSubviewVC.h; sourceTree = "<group>"; };
+		260025961DE81D2C0045B638 /* aboveSubviewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aboveSubviewVC.m; sourceTree = "<group>"; };
+		260025981DE81DD10045B638 /* belowSubviewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = belowSubviewVC.h; sourceTree = "<group>"; };
+		260025991DE81DD10045B638 /* belowSubviewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = belowSubviewVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,14 @@
 		2600254D1DE812790045B638 = {
 			isa = PBXGroup;
 			children = (
+				260025981DE81DD10045B638 /* belowSubviewVC.h */,
+				260025991DE81DD10045B638 /* belowSubviewVC.m */,
+				260025951DE81D2C0045B638 /* aboveSubviewVC.h */,
+				260025961DE81D2C0045B638 /* aboveSubviewVC.m */,
+				260025921DE81A070045B638 /* AtIndexViewVC.h */,
+				260025931DE81A070045B638 /* AtIndexViewVC.m */,
+				2600258F1DE816ED0045B638 /* AddSubViewVC.h */,
+				260025901DE816ED0045B638 /* AddSubViewVC.m */,
 				260025581DE812790045B638 /* addSubViewDemo */,
 				260025721DE812790045B638 /* addSubViewDemoTests */,
 				2600257D1DE812790045B638 /* addSubViewDemoUITests */,
@@ -270,7 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2600259A1DE81DD10045B638 /* belowSubviewVC.m in Sources */,
+				260025911DE816ED0045B638 /* AddSubViewVC.m in Sources */,
 				260025611DE812790045B638 /* ViewController.m in Sources */,
+				260025971DE81D2C0045B638 /* aboveSubviewVC.m in Sources */,
+				260025941DE81A070045B638 /* AtIndexViewVC.m in Sources */,
 				2600255E1DE812790045B638 /* AppDelegate.m in Sources */,
 				2600255B1DE812790045B638 /* main.m in Sources */,
 			);
